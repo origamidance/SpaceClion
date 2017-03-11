@@ -13,7 +13,7 @@ set visualbell
 " set clipboard=unnamedplus,unnamed
 
 let mapleader = " "
-map <C-Enter> :action AceAction<CR>
+map <C-Enter> :<CR>:action AceAction<CR>
 " Insert mode shortcut
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
@@ -36,45 +36,45 @@ noremap <Leader>wv <C-W>v
 noremap <Leader>w/ <C-W>v
 
 " built in search looks better
-noremap / :action Find<CR>
+noremap / :<CR>:action Find<CR>
 " but preserve ideavim search
 noremap <Leader>/ /
 
-noremap <Leader>;; :action CommentByLineComment<CR>
+noremap <Leader>;; :<CR>:action CommentByLineComment<CR>
 
-noremap <leader>a :action $SelectAll<CR>
+noremap <leader>a :<CR>:action $SelectAll<CR>
 
-noremap <leader><Space> :action GotoAction<CR>
-noremap <Leader>ga :action GotoAction<CR>
-noremap <Leader>gc :action GotoClass<CR>
-noremap <Leader>gd :action GotoDeclaration<CR>
-noremap <Leader>gi :action GotoImplementation<CR>
-noremap <Leader>gs :action GotoSuperMethod<CR>
-noremap <Leader>gt :action GotoTest<CR>
-noremap <Leader>ff :action GotoFile<CR>
-noremap <Leader>fu :action FindUsages<CR>
-noremap <Leader>gr :action FindUsages<CR>
+noremap <leader><Space> :<CR>:action GotoAction<CR>
+noremap <Leader>ga :<CR>:action GotoAction<CR>
+noremap <Leader>gc :<CR>:action GotoClass<CR>
+noremap <Leader>gd :<CR>:action GotoDeclaration<CR>
+noremap <Leader>gi :<CR>:action GotoImplementation<CR>
+noremap <Leader>gs :<CR>:action GotoSuperMethod<CR>
+noremap <Leader>gt :<CR>:action GotoTest<CR>
+noremap <Leader>ff :<CR>:action GotoFile<CR>
+noremap <Leader>fu :<CR>:action FindUsages<CR>
+noremap <Leader>gr :<CR>:action FindUsages<CR>
 noremap <Leader>vs :source ~/.ideavimrc<CR>
 
 " Search everywhere
-noremap <Leader>ss :action SearchEverywhere<CR>
+noremap <Leader>ss :<CR>:action SearchEverywhere<CR>
 
 " Close tab
-noremap <Leader>q :action CloseContent<CR>
-noremap <Leader><backspace> :action CloseContent<CR>
+noremap <Leader>q :<CR>:action CloseContent<CR>
+noremap <Leader><backspace> :<CR>:action CloseContent<CR>
 
 " Show Cheet Sheet
 noremap <Leader>? :edit ~/.ideavimrc<CR>
 
 " Build command
-noremap ,b :action Build<CR>
-noremap ,r :action Run<CR>
-noremap ,d :action<CR>
+noremap ,b :<CR>:action Build<CR>
+noremap ,r :<CR>:action Run<CR>
+noremap ,d :<CR>:action<CR>
 
 " Switch to last editing file
-noremap <Leader><tab> :action VimFilePrevious<CR>
+noremap <Leader><tab> :<CR>:action VimFilePrevious<CR>
 
 " File Structure
-noremap <Leader>fs :action FileStructurePopup<CR>
-" noremap <Leader>fs :action ActivateStructureToolWindow<CR>
+noremap <Leader>fs :<CR>:action FileStructurePopup<CR>
+" noremap <Leader>fs :<CR>:action ActivateStructureToolWindow<CR>
 
