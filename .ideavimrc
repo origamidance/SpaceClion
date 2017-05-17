@@ -41,6 +41,7 @@ noremap / :<CR>:action Find<CR>
 noremap <Leader>/ /
 
 noremap <Leader>;; :<CR>:action CommentByLineComment<CR>
+voremap <Leader>;; :<CR>:action CommentByLineComment<CR>
 
 noremap <leader>a :<CR>:action $SelectAll<CR>
 
