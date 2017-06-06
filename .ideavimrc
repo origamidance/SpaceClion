@@ -79,3 +79,6 @@ noremap <Leader><tab> :<CR>:action VimFilePrevious<CR>
 noremap <Leader>fs :<CR>:action FileStructurePopup<CR>
 " noremap <Leader>fs :<CR>:action ActivateStructureToolWindow<CR>
 
+" Bookmarks
+noremap <Leader>bb :<CR>:action ShowBookmarks<CR>
+noremap <Leader>bt :<CR>:action ToggleBookmark<CR>
